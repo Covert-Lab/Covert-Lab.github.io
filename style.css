@@ -5,37 +5,85 @@ body {
     height: 100%;
     background-repeat: no-repeat;
     opacity: 0; 
-    transition: opacity 5s;
+    transition: opacity 3s;
     overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-div.item {
-    width: 1920px;
-    height: 400px;
+div.nav { 
+    margin-top: 10px;
+    margin-left : calc(45% - 38px);
     position: absolute;
-    left: 0; right: 0; top: 0; bottom: 0;
-    margin: auto;
+    text-align: center;
+}
+.MenuText {
+    margin-top: -75px;
+    margin-left: 20px;
+    font-family: 'BebasNeue-Regular';
+    font-weight: normal;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+.MenuText:hover {
+    color: #e05e5e;
+}
+
+.headimages {
+margin-top: 25px;
+width: 100%;
+display: inline-block;
+}
+
+.himage-left {
+    position: absolute;
+    width: 400px;
+    margin-left: calc(50% - 600px);
+    transition: transform .2s;
+}
+.himage-center {
+    position: absolute;
+    width: 400px;
+    margin-left: calc(50% - 200px);
+    transition: transform .2s;
+}
+.himage-right {
+    position: absolute;
+    width: 400px;
+    margin-left: calc(50% + 200px);
+    transition: transform .2s;
+}
+
+.himage-left:hover, .himage-center:hover, .himage-right:hover {
+    transform: scale(1.1);
+    opacity: 50%;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 .logo {
-    width: 1920px
-    height: 400px;
+    margin-top: 10px;
+    width: 220px;
+    height: 90px;
     pointer-events: none;
+    margin-left: calc(45% - 120px);
 }
 
-.logoText {
-    margin-top: -80px;
-    margin-left: 20px;
-    font-family: 'Agency FB Bold';
-    font-weight: normal;
-    font-size: 24px;
-    color: white;
-    display: inline-block;
-    pointer-events: none;
-}
 @font-face {
     font-family: 'Agency FB Bold';
     font-style: normal;
     font-weight: normal;
     src: local('Agency FB Bold'), url('font\AGENCYB.woff') format('woff');
 }
+
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url('webFonts/BebasNeue-Regular/font.woff2') format('woff2'), url('webFonts/BebasNeue-Regular/font.woff') format('woff');
+  }
+  
