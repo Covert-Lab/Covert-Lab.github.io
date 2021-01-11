@@ -1,0 +1,213 @@
+
+body {
+    background-color : #242424;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    left : 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #1e1e1d;
+    border-bottom: 1px solid  #3b3b3b;
+    margin: 0px;
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 19px 20px;
+    text-decoration: none;
+  }
+
+  li a.first {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 19px 20px;
+    margin-left: 14px;
+    text-decoration: none;
+  }
+
+  li img.logo {
+    width: calc(460px / 3);
+    height: calc(120px / 3);
+    padding: 6px 7px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+
+  div.statscontainer {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-family: 'Roboto';
+  }
+  div.tablecontainer {
+    margin-top: 20px;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto';
+  }
+  
+  div.infocontainer{
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto';
+  }
+
+  div.lbbreak {
+    border-bottom: 1px solid  #3b3b3b;
+    padding-left: 20px;
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.lbheader {
+    font-size: 20px;
+    color: #ececec;
+    font-family: 'Roboto';
+  }
+
+
+
+
+/* 
+
+TABLE STUFF
+
+*/
+table {
+  border-collapse: collapse;
+}
+th {  
+  padding: 10px 40px;
+  text-align: center;
+  color:#ececec;
+  background-color: #252525;
+}
+th.item {
+  cursor: pointer;
+}
+th.item:hover {
+  background-color: #282828;
+}
+th.avatar {
+  padding: 10px 20px 10px 20px;
+}
+th.name {
+  padding: 10px 110px;
+}
+td {
+  text-align: center;
+  background-color: #222222;
+  color: white;
+}
+tr {
+  border-bottom: 1px solid #3b3b3b;
+}
+
+img.playersava {
+  height: 50px;
+  width: 50px;
+  padding: 3px;
+}
+input[type=text].searchbox {
+  margin: 5px;
+  margin-left: 75%;
+  width: 220px;
+  height: 33px;
+  color: #ececec;
+  background-color: #292929;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+button.searchbutton {
+  width: 35px;
+  height: 35px;
+  padding: 0px;
+  color: #3b3b3b;
+  margin-left: -5px;
+}
+
+div.table-toolbar {
+  margin-top: 2px;
+  font-family: 'Roboto';
+  display: inline-block;
+  padding: 4px;
+  background-color: #252525;
+}
+/*
+
+END TABLE STUFF
+
+*/
+
+  p.mainheader {
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    border-bottom: 2px solid #3b3b3b;
+    width: 20%;
+  }
+
+  fieldset.statscard {
+    border: 2px solid #3b3b3b ; 
+    width: 250px; height: 60px ;
+    font-family: 'Roboto' ;
+    font-size: 14px ;
+    font-weight: bold ;
+    color: white ;
+    display: inline-block ;
+    margin: 10px 10px ;
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+  }
+
+  label.playername {
+    font-size: 18px;
+    color: #ececec;
+    font-family: 'Roboto';
+    font-weight: 200;
+    position: relative;
+  }
+  label.statsred {
+    font-size: 20px;
+    color: #f64c4c;
+    font-family: 'Roboto';
+    font-weight: 700;
+    position: absolute;
+  }
+  label.statsgreen {
+    font-size: 20px;
+    color: #60f64c;
+    font-family: 'Roboto';
+    font-weight: 700;
+    position: absolute;
+  }
+  label.statsblue {
+    font-size: 20px;
+    color: #4cddf6;
+    font-family: 'Roboto';
+    font-weight: 700;
+    position: absolute;
+  }

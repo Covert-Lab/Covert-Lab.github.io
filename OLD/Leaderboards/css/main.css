@@ -1,0 +1,112 @@
+
+body {
+
+  background-color: #131313;
+  margin:0px 0px -20px 0px;
+  padding:0px;  
+  overflow: hidden;
+}
+
+.nav {
+  background: #202020;
+  width: 100%;
+  padding: 25px 0px 25px 0px;
+  text-align: right;
+}
+
+.naventry {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Nexa', Arial, sans-serif; 
+  font-weight: bold;
+  padding: 25px 25px 25px 25px;
+  border-left: 1px solid #424242;
+}
+
+.naventry:hover {
+  background-color: #303030;
+}
+
+.navlogo {
+  padding: 0;
+  width: calc(176px / 3);
+  height: calc(164px / 3);
+  padding-top: 7px;
+  padding-left: 17px;
+  position: absolute;
+}
+
+.navlogo.text {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Nexa', Arial, sans-serif; 
+  font-weight: bold;
+  top: 10px;
+  left: 75px;
+}
+
+.columna {
+  float: left;
+  width: 25%;
+}
+
+.columnb {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.color {
+  color: #30b18a;
+}
+
+.header {
+  font-size: 35px;
+  color: #ffffff;
+  font-family: 'Nexa', Arial, sans-serif; 
+  font-weight: bold;
+  top: 50px;
+  padding-left: 10px;
+  border-left: 6px solid #30b18a;
+}
+
+.lower {
+  font-size: 15px;
+  color: #ffffff;
+  font-family: 'Nexa', Arial, sans-serif; 
+  font-weight: bold;
+  margin-top: -25px;
+  margin-left: 3px;
+  padding-left: 10px;
+  border-left: 3px solid #30b18a;
+}
+
+img.avatar {
+  height: 55px;
+  width: 55px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff56;
+  border-radius: 50%;
+  display:inline-block;
+  margin-right: 10px;
+}
+
+@font-face { 
+	font-family: 'Nexa';
+    src: url('assets\Nexa-Bold.eot');
+    src: url('..\assets\Nexa-Bold.woff');
+}
+
+@font-face { 
+	font-family: 'Nexa Light';
+    src: url('assets\Nexa-Light.eot');
+    src: url('assets\Nexa-Light.woff');
+}
+
+
